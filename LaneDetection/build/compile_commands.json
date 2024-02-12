@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/guister/Desktop/LaneDetection/build",
+  "command": "/usr/bin/g++ -DFMT_HEADER_ONLY=0 -DFMT_STRING_ALIAS=1 -DFMT_USE_WINDOWS_H=0 -D_GLIBCXX_USE_CXX11_ABI=1 -isystem /home/guister/open3d_install/include -isystem /home/guister/open3d_install/include/open3d/3rdparty -g -o CMakeFiles/LaneDetection.dir/src/LaneDetection.cpp.o -c /home/guister/Desktop/LaneDetection/src/LaneDetection.cpp",
+  "file": "/home/guister/Desktop/LaneDetection/src/LaneDetection.cpp"
+},
+{
+  "directory": "/home/guister/Desktop/LaneDetection/build",
+  "command": "/usr/bin/g++ -DFMT_HEADER_ONLY=0 -DFMT_STRING_ALIAS=1 -DFMT_USE_WINDOWS_H=0 -D_GLIBCXX_USE_CXX11_ABI=1 -isystem /home/guister/open3d_install/include -isystem /home/guister/open3d_install/include/open3d/3rdparty -g -o CMakeFiles/LaneDetection.dir/src/dataStructures/Point.cpp.o -c /home/guister/Desktop/LaneDetection/src/dataStructures/Point.cpp",
+  "file": "/home/guister/Desktop/LaneDetection/src/dataStructures/Point.cpp"
+},
+{
+  "directory": "/home/guister/Desktop/LaneDetection/build",
+  "command": "/usr/bin/g++ -DFMT_HEADER_ONLY=0 -DFMT_STRING_ALIAS=1 -DFMT_USE_WINDOWS_H=0 -D_GLIBCXX_USE_CXX11_ABI=1 -isystem /home/guister/open3d_install/include -isystem /home/guister/open3d_install/include/open3d/3rdparty -g -o CMakeFiles/LaneDetection.dir/src/dataStructures/Pointcloud.cpp.o -c /home/guister/Desktop/LaneDetection/src/dataStructures/Pointcloud.cpp",
+  "file": "/home/guister/Desktop/LaneDetection/src/dataStructures/Pointcloud.cpp"
+},
+{
+  "directory": "/home/guister/Desktop/LaneDetection/build",
+  "command": "/usr/bin/g++ -DFMT_HEADER_ONLY=0 -DFMT_STRING_ALIAS=1 -DFMT_USE_WINDOWS_H=0 -D_GLIBCXX_USE_CXX11_ABI=1 -isystem /home/guister/open3d_install/include -isystem /home/guister/open3d_install/include/open3d/3rdparty -g -o CMakeFiles/LaneDetection.dir/src/utility/Math.cpp.o -c /home/guister/Desktop/LaneDetection/src/utility/Math.cpp",
+  "file": "/home/guister/Desktop/LaneDetection/src/utility/Math.cpp"
+}
+]

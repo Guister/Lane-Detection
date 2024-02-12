@@ -1,0 +1,13 @@
+-1.6456034532819431e-05;-0.00014919032481079;0.052972578256385031;0.63340125984428208
+-8.8834842003085843e-06;0.00011875926186190668;0.048940739758679005;-3.0409243738986098
+
+pointcloud.applyFilters(3, -2, {30,4}, {1, -3.5, 0, -2.4}, {0.1,3}, 0.05, true);
+
+intensityFilter(3);
+rotationFilter(-2);
+distanceFilter(30, 4);
+pointcloud.sliceFilter(1, -3.5, 0, -2.4);
+clusterDBSCAN(0.1, 3);
+voxelDownSample(0.05);
+
+calculatePolynomial({-100, 1, 100}, 1);
